@@ -7,7 +7,6 @@ eureka:
   enable-self-preservation: false
 
 ---
-
 spring:
  profiles: eureka1
 
@@ -23,7 +22,6 @@ eureka:
       defaultZone: http://eureka2:2002/eureka
 
 ---
-
 spring:
  profiles: eureka2
 
