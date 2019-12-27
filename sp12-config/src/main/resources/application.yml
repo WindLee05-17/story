@@ -1,13 +1,20 @@
 spring:
   application:
     name: config-server
-  
-cloud:
+  profiles:
+    active: native
+  cloud:
     config:
       server:
-        git:
-          uri: https://github.com/WindLee05-17/springCloudMQ.git
-          searchPaths: config
+        native:
+          search-locations: classpath:/config
+    
+#cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/WindLee05-17/springCloudMQ.git
+#          searchPaths: config
 rabbitmq:
   host: 192.168.137.128
   port: 5672
