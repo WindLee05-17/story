@@ -5,8 +5,11 @@ spring:
 eureka:
  server:
   enable-self-preservation: false
+<<<<<<< HEAD
  instance:
     prefer-ip-address: true
+=======
+>>>>>>> branch 'master' of https://github.com/WindLee05-17/story.git
 
 ---
 spring:

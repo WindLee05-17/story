@@ -71,6 +71,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-sleuth</artifactId>
@@ -79,6 +80,8 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
 		</dependency>
+=======
+>>>>>>> branch 'master' of https://github.com/WindLee05-17/story.git
 	</dependencies>
 
 	<build>
